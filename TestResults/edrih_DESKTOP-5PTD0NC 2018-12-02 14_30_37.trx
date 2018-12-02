@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a4cc3990-f6d1-4c13-b59c-6027a235615a" name="edrih@DESKTOP-5PTD0NC 2018-12-02 14:30:37" runUser="DESKTOP-5PTD0NC\edrih" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="e5153592-2f54-44e7-b8bd-79c9eaf23245">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="edrih_DESKTOP-5PTD0NC 2018-12-02 14_30_37" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-12-02T14:30:37.4958550+02:00" queuing="2018-12-02T14:30:38.1600586+02:00" start="2018-12-02T14:30:38.2348607+02:00" finish="2018-12-02T14:30:38.9437145+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="DESKTOP-5PTD0NC" outcome="Warning" timestamp="2018-12-02T14:30:38.1411090+02:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'WebGrease' directly or indirectly referenced by the test container 'D:\c-sharp-mvc4api-unit-test-example-project\mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Delete" storage="mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll" id="5daee9c3-353f-5dd4-51c3-0e5f527edcf9">
+      <Execution id="a9388146-795b-4dc9-8295-c573c174df33" />
+      <TestMethod codeBase="D:/c-sharp-mvc4api-unit-test-example-project/MvcApplicationTest.Tests/bin/Debug/MvcApplicationTest.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplicationTest.Tests.Controllers.ValuesControllerTest, MvcApplicationTest.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Delete" />
+    </UnitTest>
+    <UnitTest name="Put" storage="mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll" id="4e93a872-32dc-b627-cd95-4a2792bad3f0">
+      <Execution id="074deef3-9097-4278-9eb2-df0a092929d0" />
+      <TestMethod codeBase="D:/c-sharp-mvc4api-unit-test-example-project/MvcApplicationTest.Tests/bin/Debug/MvcApplicationTest.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplicationTest.Tests.Controllers.ValuesControllerTest, MvcApplicationTest.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Put" />
+    </UnitTest>
+    <UnitTest name="Post" storage="mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll" id="1bf27a65-d97a-44ae-dd3c-0f2a5b7d7cd6">
+      <Execution id="10a1bd61-140e-4102-8534-261b43a0f1c0" />
+      <TestMethod codeBase="D:/c-sharp-mvc4api-unit-test-example-project/MvcApplicationTest.Tests/bin/Debug/MvcApplicationTest.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplicationTest.Tests.Controllers.ValuesControllerTest, MvcApplicationTest.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Post" />
+    </UnitTest>
+    <UnitTest name="GetById" storage="mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll" id="17538339-ede9-9fc1-d303-3baf1ab34e8b">
+      <Execution id="b66b8363-edf4-479d-b23c-160ec0d4946f" />
+      <TestMethod codeBase="D:/c-sharp-mvc4api-unit-test-example-project/MvcApplicationTest.Tests/bin/Debug/MvcApplicationTest.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplicationTest.Tests.Controllers.ValuesControllerTest, MvcApplicationTest.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetById" />
+    </UnitTest>
+    <UnitTest name="Get" storage="mvcapplicationtest.tests\bin\debug\mvcapplicationtest.tests.dll" id="7d309fc5-8cac-dc6c-4700-ae39ad65fff1">
+      <Execution id="026c7efc-c545-4a13-8841-f1524dc29534" />
+      <TestMethod codeBase="D:/c-sharp-mvc4api-unit-test-example-project/MvcApplicationTest.Tests/bin/Debug/MvcApplicationTest.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcApplicationTest.Tests.Controllers.ValuesControllerTest, MvcApplicationTest.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Get" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5daee9c3-353f-5dd4-51c3-0e5f527edcf9" executionId="a9388146-795b-4dc9-8295-c573c174df33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d309fc5-8cac-dc6c-4700-ae39ad65fff1" executionId="026c7efc-c545-4a13-8841-f1524dc29534" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17538339-ede9-9fc1-d303-3baf1ab34e8b" executionId="b66b8363-edf4-479d-b23c-160ec0d4946f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bf27a65-d97a-44ae-dd3c-0f2a5b7d7cd6" executionId="10a1bd61-140e-4102-8534-261b43a0f1c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e93a872-32dc-b627-cd95-4a2792bad3f0" executionId="074deef3-9097-4278-9eb2-df0a092929d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a9388146-795b-4dc9-8295-c573c174df33" testId="5daee9c3-353f-5dd4-51c3-0e5f527edcf9" testName="Delete" computerName="DESKTOP-5PTD0NC" duration="00:00:00.0831079" startTime="2018-12-02T14:30:38.3764757+02:00" endTime="2018-12-02T14:30:38.8355526+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9388146-795b-4dc9-8295-c573c174df33">
+    </UnitTestResult>
+    <UnitTestResult executionId="026c7efc-c545-4a13-8841-f1524dc29534" testId="7d309fc5-8cac-dc6c-4700-ae39ad65fff1" testName="Get" computerName="DESKTOP-5PTD0NC" duration="00:00:00.0308258" startTime="2018-12-02T14:30:38.8435293+02:00" endTime="2018-12-02T14:30:38.8764415+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="026c7efc-c545-4a13-8841-f1524dc29534">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5&gt;. Actual:&lt;2&gt;. </Message>
+          <StackTrace>   at MvcApplicationTest.Tests.Controllers.ValuesControllerTest.Get() in D:\c-sharp-mvc4api-unit-test-example-project\MvcApplicationTest.Tests\Controllers\ValuesControllerTest.cs:line 27
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b66b8363-edf4-479d-b23c-160ec0d4946f" testId="17538339-ede9-9fc1-d303-3baf1ab34e8b" testName="GetById" computerName="DESKTOP-5PTD0NC" duration="00:00:00.0003622" startTime="2018-12-02T14:30:38.8830094+02:00" endTime="2018-12-02T14:30:38.8860273+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b66b8363-edf4-479d-b23c-160ec0d4946f">
+    </UnitTestResult>
+    <UnitTestResult executionId="10a1bd61-140e-4102-8534-261b43a0f1c0" testId="1bf27a65-d97a-44ae-dd3c-0f2a5b7d7cd6" testName="Post" computerName="DESKTOP-5PTD0NC" duration="00:00:00.0001888" startTime="2018-12-02T14:30:38.8929977+02:00" endTime="2018-12-02T14:30:38.8950027+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10a1bd61-140e-4102-8534-261b43a0f1c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="074deef3-9097-4278-9eb2-df0a092929d0" testId="4e93a872-32dc-b627-cd95-4a2792bad3f0" testName="Put" computerName="DESKTOP-5PTD0NC" duration="00:00:00.0004369" startTime="2018-12-02T14:30:38.9008026+02:00" endTime="2018-12-02T14:30:38.9028000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="074deef3-9097-4278-9eb2-df0a092929d0">
+    </UnitTestResult>
+  </Results>
+</TestRun>
